@@ -28,7 +28,7 @@ To get started with the API Order Spring project, follow these steps:
    mvn clean install
    ```
 
-4. **Run the application:**
+4. **Run the application: The API works with an h2 database and comes preloaded with data that you can modify in LoadDatabase class**
    ```bash
    mvn spring-boot:run
    ```
