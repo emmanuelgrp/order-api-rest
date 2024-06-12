@@ -6,6 +6,7 @@ Welcome to the **API Order Spring** repository! This is a RESTful API for managi
 - [Endpoints](#endpoints)
 - [Hypermedia](#hypermedia)
 - [Examples](#examples)
+- [Diagram example](#diagram-example)
 - [Contributing](#contributing)
 
 ## Getting Started
@@ -207,6 +208,9 @@ curl -X POST http://localhost:8080/orders \
     }
 }
 ```
+
+## Diagram example
+![Diagrama de la API](https://github.com/emmanuelgrp/order-api-rest/blob/main/DIAGRAM.png)
 
 ## Contributing
 
