@@ -15,12 +15,12 @@ To get started with the API Order Spring project, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/emmanuelgrp/api-order-spring.git
+   git clone https://github.com/emmanuelgrp/order-api-rest.git
    ```
 
 2. **Navigate to the project directory:**
    ```bash
-   cd api-order-spring
+   cd order-api-rest
    ```
 
 3. **Build the project using Maven:**
