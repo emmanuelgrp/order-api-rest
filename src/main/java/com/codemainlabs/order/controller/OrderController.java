@@ -10,7 +10,6 @@ import org.springframework.hateoas.EntityModel;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
@@ -27,7 +26,7 @@ public class OrderController {
 
         List<EntityModel<Order>> orders = orderPage.getContent().stream()
                 .map(assembler::toModel)
-                .collect(Collectors.toList());
+                .toList();
 
         return CollectionModel.of(orders,
                 linkTo(methodOn(OrderController.class).all(pageable)).withSelfRel());

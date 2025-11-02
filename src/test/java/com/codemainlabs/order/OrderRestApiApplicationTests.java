@@ -7,7 +7,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 class OrderRestApiApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void contextLoads() {//No implementation for this test
 	}
-
 }

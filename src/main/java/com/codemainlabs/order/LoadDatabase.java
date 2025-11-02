@@ -262,9 +262,7 @@ public class LoadDatabase {
                             .build()
             );
 
-            orderRepository.findAll().forEach(order -> {
-                log.info("Preloaded " + order);
-            });
+            orderRepository.findAll().forEach(order -> log.info("Preloaded {}", order));
         };
     }
 
